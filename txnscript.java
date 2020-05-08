@@ -56,7 +56,7 @@ public class txnscript
 		{
 			try
 			{
-				jdbcMachine = jdbcMysqlMachine ;
+				jdbcMachine = "ec2-54-247-169-129.eu-west-1.compute.amazonaws.com" ; 
 				jdbcPass = jdbcMysqlPass ;
 				jdbcDatabase = jdbcMysqlDatabase ;
 				jdbcUser = jdbcMysqlUser ;
@@ -87,7 +87,7 @@ public class txnscript
 			{
 				// execution de simplissimeCmdline hors de HEROKU (local ou Github Actions)
 				
-				jdbcMachine = jdbcHerokuMachine ;
+				jdbcMachine =  "ec2-54-247-169-129.eu-west-1.compute.amazonaws.com";
 				jdbcPass = jdbcHerokuPass ;
 				jdbcDatabase = jdbcHerokuDatabase ;
 				jdbcUser = jdbcHerokuUser ;
