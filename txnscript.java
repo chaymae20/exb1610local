@@ -36,7 +36,7 @@ public class txnscript
 	
 	private static String jdbcUrl ;
 	
-	private static String jdbcMachine = "ec2-54-247-169-129.eu-west-1.compute.amazonaws.com" ;
+	private static String jdbcMachine = "" ;
 	private static String jdbcDatabase = "" ;
 	private static String jdbcUser = "" ;
 	private static String jdbcPass = "" ;	
