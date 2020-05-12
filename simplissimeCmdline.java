@@ -53,7 +53,7 @@ public class simplissimeCmdline {
 					String sCp = cl.getOptionValue("cp") ;
 					Integer cp = Integer.parseInt(sCp);
 					//display = txn.updateVille ( id, nom, cp );
-		                        display = txn.updateVille ( nom, cp ); 
+		                        display = txn.updateVille ( nom , cp ); 
 					System.out.println( display ) ;
             }
 
